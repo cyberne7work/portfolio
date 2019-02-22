@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("https://images.unsplash.com/photo-1482406611936-43ea538e39d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80");
+    background-image: url("../images/abstract-art-background-633409.jpg");
     background-position:top;
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 66.50%;
+    font-family: 'Lato', sans-serif;
 }
+
 .card{
     display: flex;
     flex-direction: column;
@@ -49,8 +52,22 @@ body{
     font-size: 30px;
     margin: 0px 10px;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+ }
 @media(max-width:800px){
     body{
+        background-image: url("../images/mob.jpg");
         background-size: inherit;
+        font-size: 50%;
     }
 }
