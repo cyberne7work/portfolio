@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.unsplash.com/uploads/14115408840644deb16b0/2dc933e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80");
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    margin-top: 150px;
+}
+.main{
+    background-color: rgba(45, 52, 54, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+.profilepic{
+    background-image: url("../images/profile.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.icons{
+    margin-top: 15px;
+    text-align: center;
+}
+.icons ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+.icon{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.fab,.fas,.far{
+    font-size: 30px;
+    margin: 0px 10px;
+}
+@media(max-width:800px){
+    body{
+        background-size: inherit;
+    }
+}
